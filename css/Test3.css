@@ -17,13 +17,62 @@ body{
 .text-content{
 	margin-top: 5%;
 }
-/*about*/
+/*about*/ /*game*/
+.card-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+}
+.main{
+	margin-top: 10px;
+}
+.card-container img{
+	width: 160px;
+	height: 257px;
+	box-shadow: 5px 5px 10px rgb(0 0 0), 0px 0px 10px rgb(0 0 0);
+	transition: 0.5s;
+}
+.card-container img:hover{
+	transform: scale(0.9,0.9);
+}
 .main-container{
 	width: 100%;
-    height: 100vh;
+    height: auto;
 	background-color: #e9ecef;
 
 }
-.main-container h3{
-	
+/*game*/
+.bar:after{
+	position: absolute;
+}
+.bar,.bar strong{
+	position: relative;
+}
+ .bar{
+	padding: 10px;
+	padding-left: 25px;
+	color: #373d47;
+	margin: 0;
+}
+.bar strong {
+	z-index: 2;
+	background: #e9ecef;
+	padding: 4px 8px;
+}
+ .bar::after{
+	content: '';
+	bottom: 50%;
+    margin-bottom: -4px;
+	height: 2px;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background-color: #373d47;
+}
+.main{
+	margin-left: 25px;
+	margin-bottom: 15px;
 }

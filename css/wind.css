@@ -2,8 +2,9 @@
 .wind-container{
 	width: 400px;
 	display: block;
-	overflow-x: hidden;
+	overflow-y: hidden;
 	background: #e9ecef;
+	margin-top: -10px;
 }
 .main-wrapper{
 	position: relative;
