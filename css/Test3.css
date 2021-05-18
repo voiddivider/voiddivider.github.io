@@ -8,9 +8,22 @@ body{
 	flex-wrap: wrap;
 	font-size: 20px;
 }
+/*index*/
+.bg-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.text-content{
+	margin-top: 5%;
+}
 /*about*/
 .main-container{
 	width: 100%;
     height: 100vh;
 	background-color: #e9ecef;
+
+}
+.main-container h3{
+	
 }
