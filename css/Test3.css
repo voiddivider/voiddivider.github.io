@@ -18,6 +18,13 @@ body{
 	margin-top: 5%;
 }
 /*about*/ /*game*/
+.main-container{
+	width: 100%;
+    height: auto;
+	background-color: #e9ecef;
+
+}
+/*game*/
 .card-container{
 	width: 100%;
 	display: flex;
@@ -38,13 +45,6 @@ body{
 .card-container img:hover{
 	transform: scale(0.9,0.9);
 }
-.main-container{
-	width: 100%;
-    height: auto;
-	background-color: #e9ecef;
-
-}
-/*game*/
 .bar:after{
 	position: absolute;
 }
