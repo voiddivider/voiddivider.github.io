@@ -39,7 +39,7 @@ body{
 .card-container img{
 	width: 160px;
 	height: 257px;
-	box-shadow: 5px 5px 10px rgb(0 0 0), 0px 0px 10px rgb(0 0 0);
+	box-shadow: 0px 5px 10px rgb(0 0 0), 0px 0px 10px rgb(0 0 0);
 	transition: 0.5s;
 }
 .card-container img:hover{
