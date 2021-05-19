@@ -18,6 +18,7 @@ body{
 	margin-top: 5%;
 }
 /*about*/ /*game*/
+
 .main-container{
 	width: 100%;
     height: auto;
@@ -28,10 +29,12 @@ body{
 .card-container{
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
 	flex-wrap: wrap;
 	text-align: center;
 	align-items: center;
+}
+.best{
+	justify-content: space-evenly;
 }
 .main{
 	margin-top: 10px;
@@ -39,7 +42,7 @@ body{
 .card-container img{
 	width: 160px;
 	height: 257px;
-	box-shadow: 0px 5px 10px rgb(0 0 0), 0px 0px 10px rgb(0 0 0);
+	box-shadow: 5px 5px 10px rgb(0 0 0), 0px 0px 10px rgb(0 0 0);
 	transition: 0.5s;
 }
 .card-container img:hover{
@@ -73,6 +76,11 @@ body{
 	background-color: #373d47;
 }
 .main{
-	margin-left: 25px;
-	margin-bottom: 15px;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+@media  only screen and (max-width:991px) {
+	.worth{
+		justify-content: space-evenly;
+	}
 }
