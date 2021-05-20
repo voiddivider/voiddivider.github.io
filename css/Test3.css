@@ -26,25 +26,25 @@ body{
 
 }
 /*about*/
-.bg-container{
+.GIF-container{
     height: 468px;
     width: 100%;
     color: white;
     position: relative;
 }
-.bg-container img{
+.GIF-container img{
     height: inherit;
     width: 100%;
     z-index: -1;
 }
-.bg-container .text-container{
+.GIF-container .text-container{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     text-shadow: 0px;
 }
-.bg-container .text-container h1{
+.GIF-container .text-container h1{
     font-size:4.5rem;
     font-weight: bold;
     text-shadow: 5px 0px 5px black;
@@ -75,13 +75,13 @@ body{
     }
 }
 @media only screen and (max-width:768px) {
-    .bg-container{
+    .GIF-container{
         height: auto;
     }
-    .bg-container img{
+    .GIF-container img{
         height: inherit;
     }
-    .bg-container .text-container h1{
+    .GIF-container .text-container h1{
         font-size:3.5rem;
         font-weight:bold;
     }
